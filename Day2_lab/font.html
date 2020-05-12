@@ -1,0 +1,16 @@
+<html>
+<body>
+<p> Write your name with font size 4. On button click change it to 7</p>
+<button onclick="rp()">click to change the font size</button>
+
+<p id="demo">Rupal</p>
+
+<script>
+function rp() {
+  var str = document.getElementById("demo").innerHTML;
+  var a= str.fontsize(7);
+  document.getElementById("demo").innerHTML = a;
+}
+</script>
+
+</body>

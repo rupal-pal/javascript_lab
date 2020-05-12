@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p> Create an array having 5 names and display it in descending order</p>
+<p>Click the button to sort the array in descending order.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+var points = [79, 10, 99, 67, 23, 100, 78, 22, 0, 14];
+document.getElementById("demo").innerHTML = points;
+
+function myFunction() {
+  points.sort(function(a, b){return b-a});
+  document.getElementById("demo").innerHTML = points;
+}
+</script>
+
+</body>
+</html>

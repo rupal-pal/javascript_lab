@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>Create an array having 10 numbers and display it in ascending order</p>
+<p>Click the button to sort the array in ascending order.</p>
+
+<button onclick="asc()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+var arr = [79, 10, 99, 67, 23, 100, 78, 22, 0, 14];
+document.getElementById("demo").innerHTML = points;
+
+function asc() {
+  arr.sort(function(a, b){return a-b});
+  document.getElementById("demo").innerHTML = arr;
+}
+</script>
+
+</body>
+</html>

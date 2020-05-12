@@ -1,0 +1,17 @@
+
+<html>
+<body>
+     <h3>Create an array having 10 numbers , write a function whose  job is to return max number from the array</h3>
+    <p>Highest number in Array: <span id="demo"></span>.</p>
+    
+    <script>
+    var num = [51,200,67,20,9,44,0,-10,89,14];
+    num.sort(function(a, b){return b-a});
+    document.getElementById("demo").innerHTML = num[0];
+    
+    document.getElementById("org").innerHTML = num;
+    
+    </script>
+
+</body>
+</html>
